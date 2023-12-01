@@ -95,10 +95,17 @@ display: block;
 .card-footer {
     padding: 0 30px 30px;
 }
+.card-header.grid {
+    grid-gap: 0;
+}
 
 .text-center{
     text-align: center;
     color:white;
+}
+.embed {
+    width: 100%;
+    aspect-ratio: 1 /1;
 }
 
 main h2 {
@@ -209,4 +216,11 @@ footer a {
         section {
             padding: 30px;
         }
+                .card-header img {
+                    display: none;
+                }
+        
+                .embed {
+                    aspect-ratio: 16 / 9;
+                }
     }
