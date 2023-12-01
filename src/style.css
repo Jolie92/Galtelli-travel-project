@@ -74,6 +74,10 @@ main {
    max-width: 100%;
 display: block;
 }
+.gradevole{
+    width: 185px;
+    height: 185px;
+}
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
@@ -159,6 +163,7 @@ main p {
     background-color: #462cb3;
     text-decoration: none;
 }
+
 footer{
     color: white;
     background-image: linear-gradient(rgba(39, 32, 68, 0.9),
