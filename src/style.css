@@ -198,7 +198,20 @@ footer a {
     color: white;
     opacity: 0.7;
 }
+summary::-webkit-details-marker {
+    display: none;
+    
+    
+}
 
+summary:before {
+    content: '►';
+    margin-right: 5px;
+}
+
+summary{
+    color: white;
+}
 
 @media (max-width: 960px) {
     header {
@@ -224,12 +237,22 @@ footer a {
         section {
             padding: 30px;
         }
-                .card-header img {
-                    display: none;
+               
+                .card-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
                 }
-        
-                .embed {
-                    aspect-ratio: 16 / 9;
-                }
+    .embed {
+width: 50%;
+    
+                    
+}
+.restaurants {
+    width: 157px;
+    height: 157px;
+}
+                   
                 
     }
