@@ -64,19 +64,19 @@ background:#272044;
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 64px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
 }
 main {
     background-color: white;
 }
 .img-responsive {
-   max-width: 100%;
-display: block;
+max-width: 100%;
+    display: block;
 }
-.gradevole{
-    width: 185px;
-    height: 185px;
+    .restaurants{
+width: 130px;
+    height: 116px;
 }
 
 .grid-2-columns {
