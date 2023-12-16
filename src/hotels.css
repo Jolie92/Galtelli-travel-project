@@ -1,7 +1,18 @@
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../images/Castello.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
 body {
     font-family: "Poppins", sans-serif;
-background: #272044;
+    background: #272044;
 }
+
 .justify-content-between {
     justify-content: space-between !important;
 }
@@ -25,72 +36,35 @@ nav ul {
 nav {
     padding: 20px 0;
 }
+
 nav a {
     text-decoration: underline;
     color: white;
     transition: all 100ms ease-in-out;
 }
+
 nav a:hover,
 nav li.active a {
-    color:blue;
+    color: blue;
 
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("../images/Galtelli2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 200px 0;
-}
 header h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 90px;
     line-height: 100px;
 }
-header h2 {
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.5;
-    margin: 0;
-}
 
-header h3 {
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    margin: 0;
-}
-header a {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: center;
-    color: #272044;
-    padding: 16px 32px;
-    margin-top: 32px;
-    display: inline-block;
-    letter-spacing: 3px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: white;
-}
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-} 
 section {
     max-width: 100%;
     margin: 0 auto;
     padding: 100px;
 }
-section.secondary{
-background:#272044;
+
+section.secondary {
+    background: #272044;
 }
 
 
@@ -99,31 +73,29 @@ background:#272044;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
-main {
-    background-color: white;
-}
-.img-responsive {
-max-width: 100%;
-    display: block;
-}
-    .restaurants{
-width: 130px;
+
+.restaurants {
+    width: 130px;
     height: 116px;
 }
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
 }
+
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
 }
+
 .card {
     background: white;
     margin: 30px 0;
 }
+
 .card-body {
     padding: 30px;
 }
@@ -131,32 +103,21 @@ width: 130px;
 .card-footer {
     padding: 0 30px 30px;
 }
+
 .card-header.grid {
     grid-gap: 0;
 }
 
-.text-center{
+.text-center {
     text-align: center;
-    color:white;
+    color: white;
 }
+
 .embed {
     width: 100%;
     aspect-ratio: 1 /1;
 }
-.instagram-embeds {
-    margin: 30px 0;
-}
 
-main h2 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    letter-spacing: 5px;
-    color: #272044;
-    opacity: 0.3;
-    text-transform: uppercase;
-}
 
 main h3 {
     font-weight: 700;
@@ -173,15 +134,16 @@ main h4 {
     margin: 0;
 }
 
-main p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #272044;
-    opacity: 0.7;
-}
 
+
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9),
+            rgba(39, 32, 68, 0.9)),
+        url("../images/Galtelli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .btn {
     display: block;
     color: white;
@@ -195,20 +157,12 @@ main p {
     background-color: #462cb3;
     text-decoration: none;
 }
-
-footer{
-    color: white;
-    background-image: linear-gradient(rgba(39, 32, 68, 0.9),
-                rgba(39, 32, 68, 0.9)),
-            url("../images/Galtelli.jpg");
-            background-repeat: no-repeat;
-                background-size: cover;
-}
 footer h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
 }
+
 footer p {
     font-weight: 400;
     font-size: 16px;
@@ -216,6 +170,7 @@ footer p {
     margin-right: 20px;
     line-height: 24px;
 }
+
 footer ul {
     padding: 0;
 }
@@ -230,10 +185,11 @@ footer a {
     color: white;
     opacity: 0.7;
 }
+
 summary::-webkit-details-marker {
     display: none;
-    
-    
+
+
 }
 
 summary:before {
@@ -241,7 +197,7 @@ summary:before {
     margin-right: 5px;
 }
 
-summary{
+summary {
     color: white;
 }
 
@@ -254,41 +210,37 @@ summary{
         font-size: 48px;
     }
 
-    header h2 {
-        font-size: 20px;
-    }
-
-    header h3 {
-        font-size: 12px;
-    }
-     main h3 {
+    main h3 {
         font-size: 24px;
 
-     }
+    }
+
     .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
     }
-    
-        section {
-            padding: 30px;
-        }
-               
+
+    section {
+        padding: 30px;
+    }
+
     .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
+
     .embed {
-width: 50%;
-    
-                    
-}
-.restaurants {
-    width: 157px;
-    height: 157px;
-}
-                   
-                
+        width: 50%;
+
+
     }
+
+    .restaurants {
+        width: 157px;
+        height: 157px;
+    }
+
+
+}

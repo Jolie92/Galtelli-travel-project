@@ -1,0 +1,59 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #272044;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../images/san_pietro_galtelli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: underline;
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+
+nav a:hover,
+nav li.active a {
+    color: blue;
+
+}
