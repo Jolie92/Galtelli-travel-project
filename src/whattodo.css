@@ -13,12 +13,12 @@ header {
     padding: 200px 0;
 }
 
-h1 {
+header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 100px;
     color: white;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 10px;
 }
 
 .justify-content-between {
@@ -56,4 +56,15 @@ nav a:hover,
 nav li.active a {
     color: blue;
 
+}
+
+
+@media (max-width: 960px) {
+    header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
 }
